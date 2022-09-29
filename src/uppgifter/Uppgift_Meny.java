@@ -73,7 +73,7 @@ public class Uppgift_Meny {
         }
 
 
-        int max = array[0]; // index
+        int max = array[0]; //index
         int min = array[0];
 
         for (int i = 1; i < array.length; i++) {
@@ -206,7 +206,7 @@ public class Uppgift_Meny {
 
     }
 
-    private static boolean isSortedArray(int[] array, int n) {
+    private static boolean isSortedArray(int[] array, int n) { // denna metod används i OrdningOchReda
         if (n == 1 || n == 0) {
             return true;
         }
